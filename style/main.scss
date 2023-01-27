@@ -1,0 +1,157 @@
+@import "layout/navigation";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* 1.bloks - Navigācija */
+
+.main-nav {
+    height: 90px;
+    width: 100vw;
+    background-color: rgb(158, 160, 163);
+    border-bottom: 3px solid rgb(114, 202, 173);
+    padding: 5px 60px  5px    40px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.main-nav .menu-items-right {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    
+    
+}
+
+.main-nav .menu-items-right a {
+    margin-right: 15px;
+}
+
+.icon-link svg {
+        height: 100%;
+        width: auto;
+        /* display: flex;
+        align-items: center; */
+        margin-right: 150px;
+    }
+
+
+
+/* 2. bloks - Bildes */
+
+.main-images {
+    width: 100vw;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    position: relative;
+    
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+    
+#image-border {
+    border-right: 3px solid blueviolet;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.text-wrapper {
+    background-color: rgb(223, 215, 202);
+    width: 400px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 15px;
+    position: absolute;
+    padding: 34px;
+    place-self: center;
+
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+
+
+/* 3.bloks - ??? */
+
+.main-grid {
+    /* position: relative; */
+    width: 100vw;
+    padding: 30px 50px;
+    background-color: rgb(136, 146, 143);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* justify-content: space-evenly;
+    grid-template-columns: 300px 300px 300px;
+    row-gap: 30px; */
+
+
+    /* column-gap: 50px; */
+}
+
+.card {
+    border: 3px solid blueviolet;
+    background-color: rgb(226, 162, 43);
+    width: 350px;
+    min-width: 350px;
+    max-height: 400px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h3 {
+    font-size: 32px;
+    padding: 10px;
+}
+
+.picture {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+    /* padding: 0px 5px; */
+    
+}
+
+
+
+.text-card {
+    color: aliceblue;
+    margin: 15px;
+}
+
+.card .btn {
+    color: brown;
+    font-weight: bold;
+    align-self: flex-end;
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 150px;
+    /* border: 3px solid royalblue; */
+}
