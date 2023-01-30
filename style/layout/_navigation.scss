@@ -1,7 +1,31 @@
-// .main-nav {
-//     height: 90px;
-//     width: 100vw;
-//     display: flex;
-//     flex-direction: row;
 
-// }
+.main-nav {
+    height: 90px;
+    width: 100vw;
+    background-color: rgb(158, 160, 163);
+    border-bottom: 3px solid rgb(114, 202, 173);
+    padding: 5px 60px  5px    40px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    .menu-items-right {
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+        a {
+            margin-right: 15px;
+        }   
+    }
+}
+
+
+.icon-link svg {
+        height: 100%;
+        width: auto;
+        /* display: flex;
+        align-items: center; */
+        margin-right: 150px;
+    }
+
+
+
